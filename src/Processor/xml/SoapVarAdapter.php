@@ -1,8 +1,5 @@
 <?php
 namespace laxertu\DataTree\Processor\xml;
-
-
-use laxertu\DataTree\Processor\xml\XMLProcessableInterface;
 use laxertu\DataTree\Processor\StdObjectAdapter;
 
 /**

@@ -2,7 +2,7 @@
 namespace laxertu\DataTree\Processor\xml;
 
 
-interface XMLMessageInterface extends XMLProcessableInterface
+interface XMLDocumentInterface extends XMLProcessableInterface
 {
     /**
      * XML version: ex. 1.0

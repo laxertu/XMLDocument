@@ -2,7 +2,6 @@
 namespace laxertu\DataTree\tests\utils;
 
 use laxertu\DataTree\Processor\xml\XMLProcessableInterface;
-use laxertu\DataTree\xml\Message;
 
 class XMLCollector
 {

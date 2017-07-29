@@ -1,0 +1,5 @@
+{
+    "require": {
+        "laxertu/data-tree-composite": "dev-master"
+    }
+}

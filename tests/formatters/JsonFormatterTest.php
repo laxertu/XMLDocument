@@ -2,7 +2,7 @@
 namespace laxertu\DataTree\tests\formatters;
 
 use laxertu\DataTree\DataTreeList;
-use laxertu\DataTree\Processor\json\JsonFormatter;
+use laxertu\DataTree\Processor\JsonFormatter;
 use laxertu\DataTree\tests\generic\GenericMessage;
 use laxertu\DataTree\xml\NodeElement;
 

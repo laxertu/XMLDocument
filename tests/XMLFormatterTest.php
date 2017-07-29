@@ -3,7 +3,7 @@ namespace laxertu\DataTree\tests\formatters;
 
 use laxertu\DataTree\Processor\xml\XMLFormatter;
 use laxertu\DataTree\tests\generic\GenericMessage;
-use laxertu\DataTree\xml\Message;
+use laxertu\DataTree\xml\Document;
 use laxertu\DataTree\xml\NodeElement;
 use laxertu\DataTree\xml\NodeList;
 use laxertu\DataTree\xml\Node;
@@ -29,7 +29,7 @@ class XMLFormatterTest extends \PHPUnit_Framework_TestCase
 
     public function testPrologNode()
     {
-        $el = new Message();
+        $el = new Document();
         $el->setName('a');
         $el->setValue('b');
 

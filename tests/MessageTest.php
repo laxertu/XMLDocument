@@ -2,10 +2,9 @@
 namespace laxertu\DataTree\tests;
 
 use laxertu\DataTree\Processor\xml\XMLFormatter;
-use laxertu\DataTree\xml\Message;
+use laxertu\DataTree\xml\Document;
 use laxertu\DataTree\xml\Node;
 use laxertu\DataTree\xml\NodeElement;
-use laxertu\DataTree\tests\utils\XMLCollector;
 
 class MessageTest extends \PHPUnit_Framework_TestCase
 {
@@ -14,7 +13,7 @@ class MessageTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->sut = new Message();
+        $this->sut = new Document();
     }
 
     public function testRemove()

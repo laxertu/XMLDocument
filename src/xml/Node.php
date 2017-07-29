@@ -1,13 +1,13 @@
 <?php
 namespace laxertu\DataTree\xml;
-use laxertu\DataTree\DataTree;
+use laxertu\DataTree\DataTreeBase;
 use laxertu\DataTree\Processor\xml\XMLProcessableInterface;
 
 /**
  * Defines an XML node
  * @package laxertu\DataTree\xml
  */
-class Node extends DataTree implements XMLProcessableInterface
+class Node extends DataTreeBase implements XMLProcessableInterface
 {
     private $attrs = [];
 

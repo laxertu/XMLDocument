@@ -1,8 +1,6 @@
 <?php
 namespace laxertu\DataTree\xml;
 
-use laxertu\DataTree\DataTreeList;
-
 
 /**
  * Class NodeList

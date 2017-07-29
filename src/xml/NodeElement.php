@@ -12,17 +12,12 @@ class NodeElement extends Node
 
     /**
      * @param $name
-     * @param string $value
-     * @throws \InvalidArgumentException
+     * @param mixed $value
      */
     final public function __construct($name, $value = '')
     {
-        try {
-            $this->setName($name);
-            $this->setValue($value);
-        } catch (\Exception $e) {
-            throw $e;
-        }
+        $this->setName($name);
+        $this->setValue($value);
     }
 
     final protected function setChild(Node $element, $pos)

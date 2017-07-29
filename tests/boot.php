@@ -1,5 +1,9 @@
 <?php
+require_once '../vendor/autoload.php';
+
 $autoload = function ($className) {
+
+
 
     if (substr($className, 0, 16) == 'laxertu\DataTree') {
         $path = str_replace('laxertu\DataTree\\', '', $className);

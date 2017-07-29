@@ -1,14 +1,13 @@
 <?php
 namespace laxertu\DataTree\tests\generic;
-use laxertu\DataTree\DataTree;
 use laxertu\DataTree\Processor\xml\XMLProcessableInterface;
-use laxertu\DataTree\xml\Message;
+use laxertu\DataTree\xml\Document;
 
 /**
  * @package DataTree\xml
  * @see DataTree\tests\GenericMessageTest
  */
-class GenericMessage extends Message
+class GenericMessage extends Document
 {
     public function __construct($name)
     {

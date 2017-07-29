@@ -3,9 +3,9 @@ namespace laxertu\DataTree\xml;
 
 
 
-use laxertu\DataTree\Processor\xml\XMLMessageInterface;
+use laxertu\DataTree\Processor\xml\XMLDocumentInterface;
 
-class Message extends Node implements XMLMessageInterface
+class Document extends Node implements XMLDocumentInterface
 {
 
     private $version  = XMLConstants::VERSION_1_0;
