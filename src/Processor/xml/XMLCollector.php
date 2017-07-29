@@ -1,12 +1,12 @@
 <?php
-namespace laxertu\DataTree\tests\utils;
+namespace laxertu\DataTree\Processor\xml;
 
-use laxertu\DataTree\Processor\xml\XMLProcessableInterface;
+use laxertu\DataTree\xml\Node;
 
 class XMLCollector
 {
 
-    public function getNumNodeOccurrences($xml, XMLProcessableInterface $node)
+    public function getNumNodeOccurrences($xml, Node $node)
     {
 
         $nodeName = $node->getPathWithSeparator('/');

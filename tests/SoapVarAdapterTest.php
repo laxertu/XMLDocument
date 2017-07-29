@@ -1,5 +1,5 @@
 <?php
-namespace laxertu\DataTree\tests;
+namespace laxertu\DataTree\xml\tests;
 use laxertu\DataTree\Processor\xml\SoapVarAdapter;
 use laxertu\DataTree\xml\NodeElement;
 

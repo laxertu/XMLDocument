@@ -1,5 +1,5 @@
 <?php
-namespace laxertu\DataTree\tests\formatters;
+namespace laxertu\DataTree\xml\tests;
 
 use laxertu\DataTree\Processor\xml\XMLFormatter;
 use laxertu\DataTree\tests\GenericMessage;

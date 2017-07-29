@@ -1,11 +1,12 @@
 <?php
-namespace laxertu\DataTree\tests;
+namespace laxertu\DataTree\xml\tests;
 
 use laxertu\DataTree\Processor\xml\XMLFormatter;
+use laxertu\DataTree\Processor\xml\XMLCollector;
+
 use laxertu\DataTree\xml\NodeList;
 use laxertu\DataTree\xml\NodeElement;
 
-use laxertu\DataTree\tests\utils\XMLCollector;
 
 class NodeListTest extends \PHPUnit_Framework_TestCase
 {
