@@ -1,6 +1,6 @@
 <?php
-namespace laxertu\DataTree\tests\generic;
-use laxertu\DataTree\Processor\xml\XMLProcessableInterface;
+namespace laxertu\DataTree\tests;
+use laxertu\DataTree\DataTreeBase;
 use laxertu\DataTree\xml\Document;
 
 /**
@@ -14,7 +14,7 @@ class GenericMessage extends Document
         $this->setName($name);
     }
 
-    public function setChild(XMLProcessableInterface $element, $pos)
+    public function setChild(DataTreeBase $element, $pos)
     {
         return parent::setChild($element, $pos);
     }

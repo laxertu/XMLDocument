@@ -1,5 +1,6 @@
 <?php
 namespace laxertu\DataTree\xml;
+use laxertu\DataTree\DataTreeBase;
 
 /**
  * Leaf classes.
@@ -20,7 +21,7 @@ class NodeElement extends Node
         $this->setValue($value);
     }
 
-    final protected function setChild(Node $element, $pos)
+    final protected function setChild(DataTreeBase $element, $pos)
     {
         throw new \Exception('NodeElement objects does not have children');
     }
